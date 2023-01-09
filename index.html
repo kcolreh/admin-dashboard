@@ -9,10 +9,133 @@
   <body>
     <div class="layout-container">
       <header class="header-container">
-        <div class="inside-header-container-top"></div>
+        <div class="inside-header-container-top">
+          <div class="search-input-container">
+            <button type="submit" class="search-icon-button">
+              <img
+                src="./img/header-icons/search.svg"
+                alt="outline of a magnifying glass"
+                class="search-icon"
+              />
+            </button>
+            <input
+              class="input"
+              type="search"
+              id="search-bar"
+              name="search-bar"
+            />
+            <label for="search-bar"></label>
+          </div>
+          <div class="alert-usericon-name-container">
+            <div class="icon-alert-user-container">
+              <img
+                src="./img/header-icons/notification.svg"
+                alt="outline of a bell"
+                class="notification-icon"
+              />
+              <img
+                src="./img/alert-cat.svg"
+                alt="alerted cat"
+                class="person-profile-icon"
+              />
+            </div>
+            <p class="user-name">Kiki Highlander</p>
+          </div>
+        </div>
         <div class="inside-header-container-bot"></div>
       </header>
-      <section class="sidebar-container"></section>
+
+      <section class="sidebar-container">
+        <div class="h1-container">
+          <img
+            class="sidebar-icon"
+            src="./img/sidebar-icons/sidebar-icon-cat.svg"
+            alt="cute cat"
+          />
+          <h1 class="sidebar-h1">Dashboard</h1>
+        </div>
+        <div class="menu-container">
+          <ul>
+            <div class="sidebar-href-container">
+              <img
+                src="./img/sidebar-icons/home.svg"
+                alt="shape of a home"
+                class="home-icon"
+              />
+              <a href="#"><li>Home</li></a>
+            </div>
+            <div class="sidebar-href-container">
+              <img
+                src="./img/sidebar-icons/privacy.svg"
+                alt="siluet of human"
+                class="profile-icon"
+              />
+              <a href="#"><li>Profile</li></a>
+            </div>
+            <div class="sidebar-href-container">
+              <img
+                src="./img/sidebar-icons/messages.svg"
+                alt="letter outline"
+                class="message-icon"
+              />
+              <a href="#"><li>Message</li></a>
+            </div>
+            <div class="sidebar-href-container">
+              <img
+                src="./img/sidebar-icons/time-outline.svg"
+                alt="clock outline"
+                class="history-icon"
+              />
+              <a href="#"><li>History</li></a>
+            </div>
+            <div class="sidebar-href-container">
+              <img
+                src="./img/sidebar-icons/tasks.svg"
+                alt="paper outline"
+                class="tasks-icon"
+              />
+              <a href="#"><li>Tasks</li></a>
+            </div>
+            <div class="sidebar-href-container">
+              <img
+                src="./img/sidebar-icons/communities.svg"
+                alt="multiple people outline"
+                class="communities-icon"
+              />
+              <a href="#"><li>Communities</li></a>
+            </div>
+          </ul>
+        </div>
+        <div class="menu-setting-container">
+          <ul>
+            <div class="sidebar-href-container">
+              <img
+                src="./img/sidebar-icons/settings.svg"
+                alt="gear outline"
+                class="setting-icon"
+              />
+              <a href="#"><li>Settings</li></a>
+            </div>
+            <div class="sidebar-href-container">
+              <img
+                src="./img/sidebar-icons/support.svg"
+                alt="question mark outline"
+                class="support-icon"
+              />
+              <a href="#"><li>Support</li></a>
+            </div>
+            <div class="sidebar-href-container">
+              <img
+                src="./img/sidebar-icons/privacy.svg"
+                alt="shield outline"
+                class="privacy-icon"
+              />
+              <a href="#"><li>Privacy</li></a>
+            </div>
+          </ul>
+        </div>
+      </section>
+
       <section class="content-container">
         <div class="inside-content-container-main"></div>
         <div class="inside-content-container-side"></div>
@@ -20,4 +143,3 @@
     </div>
   </body>
 </html>
-

@@ -83,7 +83,7 @@ html,
   margin-left: 5rem;
 }
 
-.icon-alert-user-container{
+.icon-alert-user-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -92,6 +92,7 @@ html,
 .notification-icon {
   height: 25px;
   width: 25px;
+  cursor: pointer;
 }
 
 .input {
@@ -107,7 +108,6 @@ html,
 .search-icon-button {
   background: none;
   border: none;
-  cursor: pointer;
 }
 
 .person-profile-icon {
@@ -118,6 +118,7 @@ html,
   background-color: brown;
   border-radius: 2rem;
   padding: 0.2rem;
+  cursor: pointer;
 }
 
 .user-name {
@@ -130,6 +131,49 @@ html,
 }
 
 .inside-header-container-bot {
+  display: grid;
+  grid-template-columns: 1fr 7fr 4fr;
+}
+
+.introduction-text-container {
+  align-self: center;
+  justify-self: start;
+}
+
+.introduction-text-container > p {
+  font-weight: 400;
+}
+
+.introduction-text-container > p,
+h2 {
+  margin: 0 0 5px 0;
+}
+
+.person-profile-big {
+  height: 80px;
+  width: 80px;
+  align-self: center;
+  justify-self: center;
+  background-color: brown;
+  border-radius: 3rem;
+  padding: 0.2rem;
+  cursor: pointer;
+}
+
+.button-container-head {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  align-self: center;
+  justify-self: center;
+}
+
+.button-container-head > button {
+  height: 2rem;
+  width: 8rem;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
 }
 
 /* 2.2.sidebar-elements */
@@ -190,3 +234,20 @@ li {
 }
 
 /* 2.3.content-elements */
+
+.inside-content-container-main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.project-cards{
+  border: black solid 1px;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.card-icon-container > img {
+  height: 25px;
+  width: 25px;
+}

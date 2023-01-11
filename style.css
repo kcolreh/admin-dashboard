@@ -84,6 +84,11 @@ html,
   color: var(--clr-neutral-white);
 }
 
+input {
+  border: none;
+  background-color: var(--clr-compliment-red);
+}
+
 .alert-usericon-name-container,
 .search-input-container {
   align-self: center;
@@ -272,18 +277,18 @@ li {
   padding: 3rem;
 }
 
-.project-cards > h3{
+.project-cards > h3 {
   text-align: center;
 }
 
-.project-cards > p{
+.project-cards > p {
   border-top: 1px solid var(--clr-neutral-white);
   border-bottom: 1px solid var(--clr-neutral-white);
   margin: 1rem;
   padding: 1rem;
 }
 
-.card-icon-container{
+.card-icon-container {
   display: flex;
   justify-content: center;
   gap: 1rem;
@@ -292,6 +297,7 @@ li {
 .card-icon-container > img {
   height: 25px;
   width: 25px;
+  cursor: pointer;
 }
 
 .inside-content-container-side {
@@ -369,8 +375,9 @@ h5 {
 }
 
 .titles-of-content {
-  font-size: 1.5rem;
-  margin: 2rem 0 0 4rem;
+  font-size: 2rem;
+  margin: 2rem 0 0 0;
+  text-align: center;
 }
 
 .titles-of-content-side {
@@ -382,18 +389,38 @@ h5 {
 img.user-1,
 img.user-2,
 img.user-3,
-img.user-4{
+img.user-4 {
   margin-right: 10px;
 }
 
-img.user-2{
+img.user-2 {
   background-color: yellow;
 }
 
-img.user-3{
+img.user-3 {
   background-color: greenyellow;
 }
 
-img.user-4{
-  background-color:purple;
+img.user-4 {
+  background-color: purple;
+}
+
+/* 3.Pseudo-elements */
+
+.sidebar-href-container:hover {
+  background-color: var(--clr-compliment-red);
+}
+
+.button-container-head > :hover {
+  background-color: yellow;
+  border: yellow;
+  box-shadow: 0px 0px 15px 1px yellow;
+  color: var(--clr-main-blue);
+}
+
+.button-container-head > button:active {
+  background-color: yellow;
+  border: yellow;
+  box-shadow: 0px 0px 0px 0px yellow;
+  color: var(--clr-main-blue);
 }
